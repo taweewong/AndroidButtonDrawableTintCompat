@@ -4,7 +4,18 @@
 This library use AndroidX if you face problems about dependecies conflict, try **Jetifier**.
 
 ### Installation
-Use Jitpack (fix later)
+Setup Jitpack to your project
+```
+allprojects {
+    repositories {
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+and add dependency
+```
+implementation "com.github.taweewong:AndroidButtonDrawableTintCompat:master-SNAPSHOT"
+```
 
 ### Usage
 use attribute `app:buttonDrawableTintCompat_drawable_tint` to set button drawable tint
